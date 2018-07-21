@@ -1,9 +1,131 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "login" : [
+    {
+      "name":"Hamza Javed",
+      "id": 1,
+      "password":"2605"
+    },
+    {
+      "name":"Suleman Javed",
+      "id": 2,
+      "password":"2565"
+    },
+    {
+      "name":"Abdullah Masood",
+      "id": 3,
+      "password":"2594"
+    },
+    {
+      "name":"Saad Gull",
+      "id": 4,
+      "password":"2543"      
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "signup":[
+    {
+      "name": "Hamza",
+      "email": "hafiz.bsse2605@iiu.edu.pk",
+      "username": "hamza2605", 
+      "passward": 2605,
+	    "coidId": 1
+    },
+    {
+      "name": "Suleman Javed",
+      "email": "suleman.bsse2565@iiu.edu.pk",
+      "username": "sufi2565", 
+      "passward": "2565",
+	    "coidId": 2     
+    },
+    {
+      "name": "Abdullah Masood",
+      "email": "abdullah.bsse2594@iiu.edu.pk",
+      "username": "basheer2594", 
+      "passward": "2594",
+	    "coidId": 3      
+    },
+    {
+      "name": "Saad Gull",
+      "email": "saad.bsse2543@iiu.edu.pk",
+      "username": "saad2543", 
+      "passward": "2543",
+	    "coidId": 4       
+    }
   ],
-  "profile": { "name": "typicode" }
+  "sendOtp":[
+	  {
+      "contactNumber":"03120560593",
+      "senderId": "67889GHBB898VGBN", 
+      "OTP": 9876
+    }
+  ],
+
+  "accounts": [
+    {
+      "accountTitle": "BitAccount",
+      "Balance": 3, 
+      "coinType": "Bitcoin", 
+      "symbol": "BTC"
+    },
+    {
+      "accountTitle": "EthAccount",
+      "Balance": 1, 
+      "coinType": "Ethereum", 
+      "symbol": "ETH"      
+    },
+    {
+      "accountTitle": "RippleAccount",
+      "Balance": 29, 
+      "coinType": "Ripple", 
+      "symbol": "Ripple"
+    }
+
+  ],
+  "transaction":[
+    {
+      "amount": 10, 
+      "senderAccountId": 1, 
+      "senderAddress": "F4453213303DA61F20BD67F", 
+      "recieverAddress": "E9873D79C6D87DC0FB6A5778633389", 
+      "status": "pending"
+    },
+    {
+      "amount": 10, 
+      "senderAccountId": 1, 
+      "senderAddress": "F4453213303DA61F20BD67F", 
+      "recieverAddress": "E9873D79C6D87DC0FB6A5778633389", 
+      "status":"completed"
+    }
+  ],
+  "balance":[
+    {
+      "accountId": 2,
+      "balance": "29BTC"
+    },
+    {
+      "accountId": 1,
+      "balance": "3BTC"
+    },
+    {
+      "accountId": 3,
+      "balance": "10BTC"
+    }
+  ],
+  "coins":[
+    {
+      "coinId": 2, 
+      "symbol": "BTC", 
+      "rate": "7000$"  
+    },
+    {
+      "coinId": 1, 
+      "symbol": "ETH", 
+      "rate": "449.19$"  
+    },
+    {
+      "coinId": 3,
+      "symbol": "XRP", 
+      "rate": "0.43$"  
+    }
+
+  ]
 }
